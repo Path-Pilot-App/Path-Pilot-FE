@@ -1,11 +1,13 @@
 'use server'
 
 function Home() {
-  
+
 
   return (
     <div className="p-8">
       <input type="text" class="bg-slate-900 py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500" placeholder="Destination"></input>
+      <input type="text" class="mt-4 bg-slate-900 py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500" placeholder="Activity (Family Friendly, Adult, Mixed)"></input>
+      <input type="text" class="mt-4 bg-slate-900 py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500" placeholder="Additional Instructions"></input>
 
       <div class="space-y-0.5 bg-slate-900 rounded-3xl p-3 mt-4">
         <div class="grid grid-cols-5 items-center gap-x-3 mx-1.5 pb-3">
@@ -319,6 +321,10 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <button type="button" class="mt-8 py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-teal-500 text-white hover:bg-teal-600 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+        Generate 🪄 
+      </button>
     </div>
   );
 }
