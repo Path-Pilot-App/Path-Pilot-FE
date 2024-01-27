@@ -5,7 +5,7 @@ function Home() {
     <div className="p-8">
       <input type="text" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500" placeholder="Destination"></input>
 
-      <div class="space-y-0.5 bg-slate-900 rounded">
+      <div class="space-y-0.5 bg-slate-900 rounded-3xl pt-3 mt-4">
         <div class="grid grid-cols-5 items-center gap-x-3 mx-1.5 pb-3">
           <div class="col-span-1">
             <button type="button" class="w-8 h-8 flex justify-center items-center text-gray-800 hover:bg-gray-100 rounded-full disabled:opacity-50 disabled:pointer-events-none dark:text-gray-400 dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
